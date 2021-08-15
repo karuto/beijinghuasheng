@@ -2,6 +2,7 @@
   height: 50vh;
   width: 100%;
   background-size: cover;
+  background-position: top;
 }
 .overlay {
   height: 50vh;

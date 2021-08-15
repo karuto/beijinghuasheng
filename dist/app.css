@@ -13,6 +13,7 @@
   height: 50vh;
   width: 100%;
   background-size: cover;
+  background-position: top;
 }
 .src-components-Hero-Hero__overlay--1Xd5H {
   height: 50vh;
@@ -28,18 +29,51 @@
   font-size: 42px;
   line-height: 64px;
 }
-.src-components-Intro-Intro__intro--w7sUA {
+.src-components-Intro-Intro__container--2OPM0 {
   max-width: 960px;
   margin: -16px 16px 32px;
+  border-radius: 4px;
   background: white;
-  border-radius: 8px;
-  padding: 16px 32px;
   box-shadow: 0 15px 35px rgb(50 50 93 / 10%), 0 5px 15px rgb(0 0 0 / 7%);
   overflow: hidden;
   font-size: 14px;
   line-height: 24px;
+}
+.src-components-Intro-Intro__heading--1bIHQ {
+  color: rgb(50, 50, 93);
+  margin: 0 auto 24px;
+  text-align: center;
+  padding: 32px 32px 24px;
+  border-bottom-color: rgb(246, 249, 252);
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+}
+.src-components-Intro-Intro__headingtext--3zzpc {
+  font-size: 21px;
+  line-height: 24px;
+  margin: 0;
+  padding: 0;
+}
+.src-components-Intro-Intro__intro--w7sUA {
+  margin: 0;
+  padding: 0 32px;
   color: #444;
 }
+.src-components-Intro-Intro__action--36oXj {
+  background: rgb(246, 249, 252);
+  color: rgb(50, 50, 93);
+  margin: 16px auto 0;
+  text-align: center;
+  padding: 16px 32px;
+  transition: all 1s ease;
+}
+.src-components-Intro-Intro__action--36oXj:hover {
+  background: rgb(217, 229, 242); /* 10% darker */
+}
+.src-components-Intro-Intro__readmore--1L3BR {
+  font-weight: 900;
+}
+
 .src-components-Footer-Footer__footer--2dyxG {
   color: #666;
   font-family: Roboto,"Hiragino Sans GB","冬青黑","Microsoft YaHei","微软雅黑",SimSun,"宋体",sans-serif;
@@ -55,6 +89,11 @@
   ========================================================================== */
 .src-components-Page-Page__container--QOUG7 {
   box-sizing: border-box;
+}
+.src-components-Page-Page__content--rCsmc {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
 }
 .src-components-Page-Page__container--contents--1j_Nj {
   max-width: 960px;
