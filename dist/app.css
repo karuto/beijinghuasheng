@@ -58,29 +58,6 @@
   color: rgb(50, 50, 93);
   margin: 0;
 }
-.src-components-History-History__callout--1TdWF {
-  background: white;
-  border-radius: 4px;
-  margin: 0 -16px;
-
-}
-.src-components-History-History__calloutHeading--1lNjv {
-  margin: 0 auto 24px;
-  text-align: center;
-  padding: 32px 32px 24px;
-  border-bottom-style: solid;
-  border-bottom-width: 2px;
-  font-weight: 300;
-  color: rgb(50, 50, 93);
-  border-bottom-color: rgb(246, 249, 252);  
-}
-.src-components-History-History__calloutHeadingText--3b0cA {
-  font-size: 21px;
-  line-height: 24px;
-  letter-spacing: 1px;
-  margin: 0;
-  padding: 0;
-}
 .src-components-History-History__collabs--10oo0 {
   display: flex;
   justify-content: space-around;
@@ -107,6 +84,41 @@
 .src-components-History-History__logo--3nzTm {
   width: 100px;
   height: 100px;
+}
+.src-components-History-History__certificate--3Lyq6 {
+  width: 250px;
+}
+
+.src-components-Callout-Callout__callout--3STgN {
+  background: white;
+  border-radius: 4px;
+  margin: 0;
+}
+.src-components-Callout-Callout__shadow--XoVKJ {
+  box-shadow: 0 15px 35px rgb(50 50 93 / 10%), 0 5px 15px rgb(0 0 0 / 7%);
+}
+.src-components-Callout-Callout__theme--Iy4CF {
+
+}
+.src-components-Callout-Callout__stretch--1RweU {
+  margin: 0 -16px;
+}
+.src-components-Callout-Callout__calloutHeading--2E2j4 {
+  margin: 0 auto 24px;
+  text-align: center;
+  padding: 32px 32px 24px;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  font-weight: 300;
+  color: rgb(50, 50, 93);
+  border-bottom-color: rgb(246, 249, 252);  
+}
+.src-components-Callout-Callout__calloutHeadingText--FPoPm {
+  font-size: 21px;
+  line-height: 24px;
+  letter-spacing: 1px;
+  margin: 0;
+  padding: 0;
 }
 
 .src-components-Intro-Intro__container--2OPM0 {
@@ -239,37 +251,6 @@
   transition-duration: .5s;
 }
 
-
-
-/* ==========================================================================
-  Title area
-  ========================================================================== */
-.src-components-Page-Page__titles--3gpez {
-  max-width: 960px;
-  margin: 0 auto;
-  padding: 4rem;
-  color: #fff;
-}
-
-
-
-/* ==========================================================================
-  Headings
-  ========================================================================== */
-.src-components-Page-Page__heading--3AMzj {
-    margin: 0 0 1rem;
-}
-.src-components-Page-Page__heading--titles--QYiBU {
-  padding: 0;
-}
-.src-components-Page-Page__subheading--252zZ {
-  margin: 0;
-  padding: 0;
-  font-weight: normal;
-}
-.src-components-Page-Page__subheading--titles--32eSI {
-  font-size: 16px;
-}
 /*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */
 
 /* Document

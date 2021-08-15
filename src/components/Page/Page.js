@@ -2,16 +2,12 @@ import React, { useState } from 'react';
 import Header from '../Header/Header';
 import Hero from '../Hero/Hero';
 import History from '../History/History';
+import Contact from '../Contact/Contact';
 import Intro from '../Intro/Intro';
 import Footer from '../Footer/Footer';
 import styles from './Page.css';
 
 function Page() {
-    const strings = {
-        headingGlobal: 'GitHub Static Site Template',
-        subheadingGlobal: 'A React-based template for GitHub Pages. Start editing away!'
-    };
-
     const [count, setCount] = useState(0);
 
     return (
@@ -21,10 +17,8 @@ function Page() {
             <div className={styles.content}>
                 <Intro/>
                 <History/>
-                {/* <header className={styles.titles}>
-                    <h1 className={styles['heading--titles']}>{strings.headingGlobal}</h1>
-                    <h3 className={styles['subheading--titles']}>{strings.subheadingGlobal}</h3>
-                </header>
+                <Contact/>
+                {/*
                 <div className={styles['container--contents']}>
                     <h1>Hello world! Count: {count}</h1>
                     <button onClick={() => setCount(count + 1)}>

@@ -27,29 +27,6 @@
   color: rgb(50, 50, 93);
   margin: 0;
 }
-.callout {
-  background: white;
-  border-radius: 4px;
-  margin: 0 -16px;
-
-}
-.calloutHeading {
-  margin: 0 auto 24px;
-  text-align: center;
-  padding: 32px 32px 24px;
-  border-bottom-style: solid;
-  border-bottom-width: 2px;
-  font-weight: 300;
-  color: rgb(50, 50, 93);
-  border-bottom-color: rgb(246, 249, 252);  
-}
-.calloutHeadingText {
-  font-size: 21px;
-  line-height: 24px;
-  letter-spacing: 1px;
-  margin: 0;
-  padding: 0;
-}
 .collabs {
   display: flex;
   justify-content: space-around;
@@ -76,4 +53,7 @@
 .logo {
   width: 100px;
   height: 100px;
+}
+.certificate {
+  width: 250px;
 }
