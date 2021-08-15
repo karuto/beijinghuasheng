@@ -1,5 +1,4 @@
 .container {
-  max-width: 960px;
   box-shadow: 0 15px 35px rgb(50 50 93 / 10%), 0 5px 15px rgb(0 0 0 / 7%);
   overflow: hidden;
   font-size: 14px;
@@ -58,12 +57,11 @@
   color: #BBB;
   justify-content: space-evenly;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 767px) { /* mobile treatment */
   .intro--secondary {
     flex-direction: column;
   }
 }
-
 .action {
   margin: 16px auto 0;
   padding: 32px;

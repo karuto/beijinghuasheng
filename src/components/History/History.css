@@ -1,0 +1,79 @@
+.container {
+  margin: 48px 0 0;
+  padding: 32px;
+  overflow: hidden;
+  font-size: 14px;
+  line-height: 24px;
+  border-radius: 4px;
+}
+.p {
+  margin: 0;
+  padding: 32px 16px;
+  border-left: 1px solid #bbb;
+}
+.pspacer {
+  margin: 0;
+  padding: 16px 16px;
+  border-left: 1px solid #bbb;
+}
+.heading {
+}
+.title {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 16px;
+  border-left: 1px solid rgb(50, 50, 93);
+  padding: 0 0 0 16px;
+  color: rgb(50, 50, 93);
+  margin: 0;
+}
+.callout {
+  background: white;
+  border-radius: 4px;
+  margin: 0 -16px;
+
+}
+.calloutHeading {
+  margin: 0 auto 24px;
+  text-align: center;
+  padding: 32px 32px 24px;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  font-weight: 300;
+  color: rgb(50, 50, 93);
+  border-bottom-color: rgb(246, 249, 252);  
+}
+.calloutHeadingText {
+  font-size: 21px;
+  line-height: 24px;
+  letter-spacing: 1px;
+  margin: 0;
+  padding: 0;
+}
+.collabs {
+  display: flex;
+  justify-content: space-around;
+  padding: 32px;
+}
+@media screen and (max-width: 767px) { /* mobile treatment */
+  .collabs {
+    flex-direction: column;
+  }
+}
+.collab {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.collab > h5 {
+  color: rgb(170, 183, 196);
+  text-align: center;
+  margin: 16px 16px 32px;
+  padding: 0;
+  font-size: 12px;
+}
+.logo {
+  width: 100px;
+  height: 100px;
+}
