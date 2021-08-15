@@ -241,6 +241,18 @@ eval("// extracted by mini-css-extract-plugin\nmodule.exports = {\"browserupgrad
 
 /***/ }),
 
+/***/ "./src/assets/oil-refinery.jpg":
+/*!*************************************!*\
+  !*** ./src/assets/oil-refinery.jpg ***!
+  \*************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"96d843fa36af58b4de252dfe7dab9b98.jpg\");\n\n//# sourceURL=webpack:///./src/assets/oil-refinery.jpg?");
+
+/***/ }),
+
 /***/ "./src/components/Footer/Footer.css":
 /*!******************************************!*\
   !*** ./src/components/Footer/Footer.css ***!
@@ -283,7 +295,53 @@ eval("// extracted by mini-css-extract-plugin\nmodule.exports = {\"header\":\"sr
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _Header = __webpack_require__(/*! ./Header.css */ \"./src/components/Header/Header.css\");\n\nvar _Header2 = _interopRequireDefault(_Header);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar Header = function Header() {\n\n  return _react2.default.createElement(\n    'header',\n    { className: _Header2.default.header },\n    _react2.default.createElement(\n      'div',\n      { className: _Header2.default.content },\n      _react2.default.createElement(\n        'div',\n        { className: _Header2.default.logo },\n        '\\u5317\\u4EAC\\u4E1C\\u65B9\\u534E\\u76DB'\n      )\n    )\n  );\n};\n\nexports.default = Header;\n\n//# sourceURL=webpack:///./src/components/Header/Header.js?");
+eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n    value: true\n});\n\nvar _react = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _Header = __webpack_require__(/*! ./Header.css */ \"./src/components/Header/Header.css\");\n\nvar _Header2 = _interopRequireDefault(_Header);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar Header = function Header() {\n    return _react2.default.createElement(\n        'header',\n        { className: _Header2.default.header },\n        _react2.default.createElement(\n            'div',\n            { className: _Header2.default.content },\n            _react2.default.createElement(\n                'div',\n                { className: _Header2.default.logo },\n                '\\u5317\\u4EAC\\u4E1C\\u65B9\\u534E\\u76DB'\n            )\n        )\n    );\n};\n\nexports.default = Header;\n\n//# sourceURL=webpack:///./src/components/Header/Header.js?");
+
+/***/ }),
+
+/***/ "./src/components/Hero/Hero.css":
+/*!**************************************!*\
+  !*** ./src/components/Hero/Hero.css ***!
+  \**************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("// extracted by mini-css-extract-plugin\nmodule.exports = {\"container\":\"src-components-Hero-Hero__container--PPI1N\",\"overlay\":\"src-components-Hero-Hero__overlay--1Xd5H\",\"slogan\":\"src-components-Hero-Hero__slogan--3XLPg\"};\n\n//# sourceURL=webpack:///./src/components/Hero/Hero.css?");
+
+/***/ }),
+
+/***/ "./src/components/Hero/Hero.js":
+/*!*************************************!*\
+  !*** ./src/components/Hero/Hero.js ***!
+  \*************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n\tvalue: true\n});\n\nvar _react = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _Hero = __webpack_require__(/*! ./Hero.css */ \"./src/components/Hero/Hero.css\");\n\nvar _Hero2 = _interopRequireDefault(_Hero);\n\nvar _oilRefinery = __webpack_require__(/*! ../../assets/oil-refinery.jpg */ \"./src/assets/oil-refinery.jpg\");\n\nvar _oilRefinery2 = _interopRequireDefault(_oilRefinery);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction Hero() {\n\treturn _react2.default.createElement(\n\t\t'div',\n\t\t{ style: { backgroundImage: 'url(\\'dist/' + _oilRefinery2.default + '\\')' }, className: _Hero2.default.container },\n\t\t_react2.default.createElement(\n\t\t\t'div',\n\t\t\t{ className: _Hero2.default.overlay },\n\t\t\t_react2.default.createElement(\n\t\t\t\t'h2',\n\t\t\t\t{ className: _Hero2.default.slogan },\n\t\t\t\t'\\u4E13\\u6CE8\\u79D1\\u7814\\u521B\\u65B0\\u4EA7\\u54C1',\n\t\t\t\t_react2.default.createElement('br', null),\n\t\t\t\t'\\u52A9\\u529B\\u77F3\\u6CB9\\u884C\\u4E1A\\u8D77\\u98DE'\n\t\t\t)\n\t\t)\n\t);\n}\n\nexports.default = Hero;\n\n//# sourceURL=webpack:///./src/components/Hero/Hero.js?");
+
+/***/ }),
+
+/***/ "./src/components/Intro/Intro.css":
+/*!****************************************!*\
+  !*** ./src/components/Intro/Intro.css ***!
+  \****************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("// extracted by mini-css-extract-plugin\nmodule.exports = {\"intro\":\"src-components-Intro-Intro__intro--w7sUA\"};\n\n//# sourceURL=webpack:///./src/components/Intro/Intro.css?");
+
+/***/ }),
+
+/***/ "./src/components/Intro/Intro.js":
+/*!***************************************!*\
+  !*** ./src/components/Intro/Intro.js ***!
+  \***************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n\tvalue: true\n});\n\nvar _react = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _Intro = __webpack_require__(/*! ./Intro.css */ \"./src/components/Intro/Intro.css\");\n\nvar _Intro2 = _interopRequireDefault(_Intro);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction Intro() {\n\treturn _react2.default.createElement(\n\t\t'div',\n\t\t{ className: _Intro2.default.intro },\n\t\t_react2.default.createElement(\n\t\t\t'p',\n\t\t\tnull,\n\t\t\t'\\u5317\\u4EAC\\u4E1C\\u65B9\\u534E\\u76DB\\u79D1\\u6280\\u6709\\u9650\\u516C\\u53F8\\u6210\\u7ACB\\u4E8E 2011 \\u5E74 5 \\u6708 10 \\u65E5\\uFF0C\\u6CE8\\u518C\\u8D44\\u91D1 3800 \\u4E07\\u5143\\uFF0C\\u662F\\u4E00\\u822C\\u7EB3\\u7A0E\\u4EBA\\u4F01\\u4E1A\\u3001\\u56FD\\u5BB6\\u9AD8\\u65B0\\u6280\\u672F\\u4F01\\u4E1A\\u3001\\u5168\\u56FD\\u79D1\\u6280\\u521B\\u65B0\\u793A\\u8303\\u5355\\u4F4D\\u3001AAA \\u7EA7\\u4FE1\\u7528\\u4F01\\u4E1A\\u3001\\u91CD\\u5408\\u540C\\u5B88\\u4FE1\\u7528\\u4F01\\u4E1A\\u3002\\u62E5\\u6709\\u5168\\u8D44\\u5206\\u652F\\u673A\\u6784\\uFF1A\\u5317\\u4EAC\\u4E1C\\u65B9\\u534E\\u76DB\\u79D1\\u6280\\u6709\\u9650\\u516C\\u53F8\\u897F\\u5B89\\u5206\\u516C\\u53F8\\u3001\\u4ED9\\u6843\\u534E\\u80DC\\u5316\\u5DE5\\u6709\\u9650\\u516C\\u53F8\\u3002\\u516C\\u53F8\\u8D44\\u91D1\\u5145\\u88D5\\uFF0C\\u751F\\u4EA7\\u7ECF\\u8425\\u7A33\\u5B9A\\uFF0C\\u793E\\u4F1A\\u4FE1\\u8A89\\u826F\\u597D\\u3002'\n\t\t)\n\t);\n}\n\nexports.default = Intro;\n\n//# sourceURL=webpack:///./src/components/Intro/Intro.js?");
 
 /***/ }),
 
@@ -306,7 +364,7 @@ eval("// extracted by mini-css-extract-plugin\nmodule.exports = {\"container\":\
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n    value: true\n});\n\nvar _slicedToArray = function () { function sliceIterator(arr, i) { var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i[\"return\"]) _i[\"return\"](); } finally { if (_d) throw _e; } } return _arr; } return function (arr, i) { if (Array.isArray(arr)) { return arr; } else if (Symbol.iterator in Object(arr)) { return sliceIterator(arr, i); } else { throw new TypeError(\"Invalid attempt to destructure non-iterable instance\"); } }; }();\n\nvar _react = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _Header = __webpack_require__(/*! ../Header/Header */ \"./src/components/Header/Header.js\");\n\nvar _Header2 = _interopRequireDefault(_Header);\n\nvar _Footer = __webpack_require__(/*! ../Footer/Footer */ \"./src/components/Footer/Footer.js\");\n\nvar _Footer2 = _interopRequireDefault(_Footer);\n\nvar _Page = __webpack_require__(/*! ./Page.css */ \"./src/components/Page/Page.css\");\n\nvar _Page2 = _interopRequireDefault(_Page);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction Page() {\n    var strings = {\n        headingGlobal: 'GitHub Static Site Template',\n        subheadingGlobal: 'A React-based template for GitHub Pages. Start editing away!'\n    };\n\n    var _useState = (0, _react.useState)(0),\n        _useState2 = _slicedToArray(_useState, 2),\n        count = _useState2[0],\n        setCount = _useState2[1];\n\n    return _react2.default.createElement(\n        'div',\n        { className: _Page2.default.container },\n        _react2.default.createElement(_Header2.default, null),\n        _react2.default.createElement(\n            'header',\n            { className: _Page2.default.titles },\n            _react2.default.createElement(\n                'h1',\n                { className: _Page2.default['heading--titles'] },\n                strings.headingGlobal\n            ),\n            _react2.default.createElement(\n                'h3',\n                { className: _Page2.default['subheading--titles'] },\n                strings.subheadingGlobal\n            )\n        ),\n        _react2.default.createElement(\n            'div',\n            { className: _Page2.default['container--contents'] },\n            _react2.default.createElement(\n                'h1',\n                null,\n                'Hello world! Count: ',\n                count\n            ),\n            _react2.default.createElement(\n                'button',\n                { onClick: function onClick() {\n                        return setCount(count + 1);\n                    } },\n                'Click me'\n            )\n        ),\n        _react2.default.createElement(_Footer2.default, null)\n    );\n}\n\nexports.default = Page;\n\n//# sourceURL=webpack:///./src/components/Page/Page.js?");
+eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n    value: true\n});\n\nvar _slicedToArray = function () { function sliceIterator(arr, i) { var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i[\"return\"]) _i[\"return\"](); } finally { if (_d) throw _e; } } return _arr; } return function (arr, i) { if (Array.isArray(arr)) { return arr; } else if (Symbol.iterator in Object(arr)) { return sliceIterator(arr, i); } else { throw new TypeError(\"Invalid attempt to destructure non-iterable instance\"); } }; }();\n\nvar _react = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _Header = __webpack_require__(/*! ../Header/Header */ \"./src/components/Header/Header.js\");\n\nvar _Header2 = _interopRequireDefault(_Header);\n\nvar _Hero = __webpack_require__(/*! ../Hero/Hero */ \"./src/components/Hero/Hero.js\");\n\nvar _Hero2 = _interopRequireDefault(_Hero);\n\nvar _Intro = __webpack_require__(/*! ../Intro/Intro */ \"./src/components/Intro/Intro.js\");\n\nvar _Intro2 = _interopRequireDefault(_Intro);\n\nvar _Footer = __webpack_require__(/*! ../Footer/Footer */ \"./src/components/Footer/Footer.js\");\n\nvar _Footer2 = _interopRequireDefault(_Footer);\n\nvar _Page = __webpack_require__(/*! ./Page.css */ \"./src/components/Page/Page.css\");\n\nvar _Page2 = _interopRequireDefault(_Page);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction Page() {\n    var strings = {\n        headingGlobal: 'GitHub Static Site Template',\n        subheadingGlobal: 'A React-based template for GitHub Pages. Start editing away!'\n    };\n\n    var _useState = (0, _react.useState)(0),\n        _useState2 = _slicedToArray(_useState, 2),\n        count = _useState2[0],\n        setCount = _useState2[1];\n\n    return _react2.default.createElement(\n        'div',\n        { className: _Page2.default.container },\n        _react2.default.createElement(_Header2.default, null),\n        _react2.default.createElement(_Hero2.default, null),\n        _react2.default.createElement(_Intro2.default, null),\n        _react2.default.createElement(\n            'header',\n            { className: _Page2.default.titles },\n            _react2.default.createElement(\n                'h1',\n                { className: _Page2.default['heading--titles'] },\n                strings.headingGlobal\n            ),\n            _react2.default.createElement(\n                'h3',\n                { className: _Page2.default['subheading--titles'] },\n                strings.subheadingGlobal\n            )\n        ),\n        _react2.default.createElement(\n            'div',\n            { className: _Page2.default['container--contents'] },\n            _react2.default.createElement(\n                'h1',\n                null,\n                'Hello world! Count: ',\n                count\n            ),\n            _react2.default.createElement(\n                'button',\n                { onClick: function onClick() {\n                        return setCount(count + 1);\n                    } },\n                'Click me'\n            )\n        ),\n        _react2.default.createElement(_Footer2.default, null)\n    );\n}\n\nexports.default = Page;\n\n//# sourceURL=webpack:///./src/components/Page/Page.js?");
 
 /***/ }),
 

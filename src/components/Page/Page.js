@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import Header from '../Header/Header';
+import Hero from '../Hero/Hero';
+import Intro from '../Intro/Intro';
 import Footer from '../Footer/Footer';
 import styles from './Page.css';
 
@@ -14,6 +16,8 @@ function Page() {
     return (
         <div className={styles.container}>
             <Header/>
+            <Hero/>
+            <Intro/>
             <header className={styles.titles}>
                 <h1 className={styles['heading--titles']}>{strings.headingGlobal}</h1>
                 <h3 className={styles['subheading--titles']}>{strings.subheadingGlobal}</h3>
