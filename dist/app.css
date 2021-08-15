@@ -1,6 +1,6 @@
 .src-components-Header-Header__header--1qRCL {
   width: 100%;
-  padding: 16px;
+  padding: 16px 0;
   /* position: fixed; */
   background: white;
 }
@@ -31,49 +31,102 @@
 }
 .src-components-Intro-Intro__container--2OPM0 {
   max-width: 960px;
-  margin: -16px 16px 32px;
-  border-radius: 4px;
-  background: white;
   box-shadow: 0 15px 35px rgb(50 50 93 / 10%), 0 5px 15px rgb(0 0 0 / 7%);
   overflow: hidden;
   font-size: 14px;
   line-height: 24px;
+  border-radius: 4px;
+}
+.src-components-Intro-Intro__container--primary--1ibfp {
+  background: white;
+  margin: -16px 16px 0;
+}
+.src-components-Intro-Intro__container--secondary--34IUh {
+  background: rgb(50, 50, 93);
+  margin: 0 32px 0;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  color: rgb(170, 183, 196);
 }
 .src-components-Intro-Intro__heading--1bIHQ {
-  color: rgb(50, 50, 93);
   margin: 0 auto 24px;
   text-align: center;
   padding: 32px 32px 24px;
-  border-bottom-color: rgb(246, 249, 252);
   border-bottom-style: solid;
   border-bottom-width: 2px;
+  font-weight: 300;
+}
+.src-components-Intro-Intro__heading--primary--6B15Y {
+  color: rgb(50, 50, 93);
+  border-bottom-color: rgb(246, 249, 252);
+}
+.src-components-Intro-Intro__heading--secondary--3W0AS {
+  color: white;
+  border-bottom-color: rgba(85, 90, 191, 0.1)
 }
 .src-components-Intro-Intro__headingtext--3zzpc {
   font-size: 21px;
   line-height: 24px;
+  letter-spacing: 1px;
   margin: 0;
   padding: 0;
 }
 .src-components-Intro-Intro__intro--w7sUA {
   margin: 0;
   padding: 0 32px;
+  display: flex;
+}
+.src-components-Intro-Intro__intro--primary--14nte {
   color: #444;
 }
-.src-components-Intro-Intro__action--36oXj {
-  background: rgb(246, 249, 252);
-  color: rgb(50, 50, 93);
-  margin: 16px auto 0;
-  text-align: center;
-  padding: 16px 32px;
-  transition: all 1s ease;
+.src-components-Intro-Intro__intro--secondary--2wLUl {
+  color: #BBB;
+  justify-content: space-evenly;
 }
-.src-components-Intro-Intro__action--36oXj:hover {
-  background: rgb(217, 229, 242); /* 10% darker */
-}
-.src-components-Intro-Intro__readmore--1L3BR {
-  font-weight: 900;
+@media screen and (max-width: 767px) {
+  .src-components-Intro-Intro__intro--secondary--2wLUl {
+    flex-direction: column;
+  }
 }
 
+.src-components-Intro-Intro__action--36oXj {
+  margin: 16px auto 0;
+  padding: 32px;
+  transition: all 1s ease;
+}
+.src-components-Intro-Intro__action--primary--2jZt3 {
+  background: rgb(246, 249, 252);
+  color: rgb(50, 50, 93);
+}
+.src-components-Intro-Intro__action--primary--2jZt3:hover {
+  background: rgb(217, 229, 242); /* 10% darker */
+}
+.src-components-Intro-Intro__action--secondary--1bafj {
+  background: rgba(76, 80, 170, 0.2);
+  color: rgb(135, 187, 253);
+}
+.src-components-Intro-Intro__action--secondary--1bafj:hover {
+  background: rgba(81, 86, 182, 0.2); /* 10% darker */
+}
+.src-components-Intro-Intro__actionText--1uYRP {
+  text-align: center;
+  font-size: 21px;
+  font-weight: 900;
+  letter-spacing: 1px;
+  margin: 0;
+  padding: 0;
+}
+.src-components-Intro-Intro__subtitle--1wj-a {
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 16px;
+  margin: 0;
+  padding: 0;
+}
+.src-components-Intro-Intro__list--1W_aP {
+  color: rgb(170, 183, 196);
+}
 .src-components-Footer-Footer__footer--2dyxG {
   color: #666;
   font-family: Roboto,"Hiragino Sans GB","冬青黑","Microsoft YaHei","微软雅黑",SimSun,"宋体",sans-serif;
