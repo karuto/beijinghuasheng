@@ -3,7 +3,7 @@
   width: 100%;
   margin: -72px 0 0;
   background-size: cover;
-  background-position: bottom;
+  background-position: top;
 }
 .overlay {
   height: 50vh;

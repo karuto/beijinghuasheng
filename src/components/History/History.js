@@ -5,9 +5,12 @@ import trademark from '../../assets/trademark.png';
 import logoCNPC from '../../assets/logo-cnpc.png';
 import logoSinopec from '../../assets/logo-sinopec.png';
 import logoYanchang from '../../assets/logo-yanchang.png';
-import credZhiliang from '../../assets/cred-zhiliang.png';
-import credZhijian from '../../assets/cred-zhijian.png';
-import credChengxin from '../../assets/cred-chengxin.png';
+import cert1 from '../../assets/cert-1.png';
+import cert2 from '../../assets/cert-2.png';
+import cert3 from '../../assets/cert-3.png';
+import cert4 from '../../assets/cert-4.png';
+import cert5 from '../../assets/cert-5.png';
+import cert6 from '../../assets/cert-6.png';
 import { Element } from 'react-scroll';
 
 function History () {
@@ -36,26 +39,40 @@ function History () {
 					</article>
 					<article className={styles.collab}>
 						<img src={`dist/${logoYanchang}`} className={styles.logo} />
-						<h5>陕西延长石油</h5>
+						<h5>陕西延长油田</h5>
 					</article>
 				</div>
 			</Callout>
 			<p className={styles.pspacer}></p>
 			<h3 className={styles.title}>资质认证</h3>
 			<p className={styles.p}>北京东方华盛科技有限公司通过了 GB/T19001-2016/ISO9001:2015 质量管理体系认证、GB/T24001-2016/ISO14001:2015 环境管理体系认证、GB/T45001-2020/ISO45001:2018 职业健康安全管理体系认证，被评为「国家高新技术企业」、「中关村高新技术企业」、「重合同守信用企业」、「全国科技创新示范单位」、「全国质量诚信示范企业」、「全国质量信得过产品」、「全国质量诚信标杆典型企业」、「AAA 级信用企业」。</p>
-			<Callout heading='国家证书展示' enableShadow enableStretch>
+			<Callout heading='资质证书展示' enableShadow enableStretch>
 				<div className={styles.collabs}>
 					<article className={styles.collab}>
-						<img src={`dist/${credZhiliang}`} className={styles.certificate} />
-						<h5>全国质量信得过产品 证书</h5>
+						<img src={`dist/${cert1}`} className={styles.certificate} />
+						<h5>北京市高新技术企业 证书</h5>
 					</article>
 					<article className={styles.collab}>
-						<img src={`dist/${credZhijian}`} className={styles.certificate} />
-						<h5>全国质量检验先进企业 证书</h5>
+						<img src={`dist/${cert2}`} className={styles.certificate} />
+						<h5>中关村高新技术企业 证书</h5>
 					</article>
 					<article className={styles.collab}>
-						<img src={`dist/${credChengxin}`} className={styles.certificate} />
-						<h5>全国质量诚信先进企业 证书</h5>
+						<img src={`dist/${cert3}`} className={styles.certificate} />
+						<h5>全国科技创新示范单位 证书</h5>
+					</article>
+				</div>
+				<div className={styles.collabs}>
+					<article className={styles.collab}>
+						<img src={`dist/${cert4}`} className={styles.certificate} />
+						<h5>质量管理体系认证 证书</h5>
+					</article>
+					<article className={styles.collab}>
+						<img src={`dist/${cert5}`} className={styles.certificate} />
+						<h5>环境管理体系认证 证书</h5>
+					</article>
+					<article className={styles.collab}>
+						<img src={`dist/${cert6}`} className={styles.certificate} />
+						<h5>职业健康安全管理体系认证 证书</h5>
 					</article>
 				</div>
 			</Callout>
