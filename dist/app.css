@@ -1,13 +1,30 @@
-.src-components-Header-Header__header--1qRCL {
+.src-components-Header-Header__container--qQ2mF {
   width: 100%;
   padding: 16px 0;
   /* position: fixed; */
   background: white;
 }
-
 .src-components-Header-Header__content--2D4ul {
   max-width: 960px;
   margin: 0 auto;
+}
+.src-components-Header-Header__brand--2oS_y {
+  margin: 0 16px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.src-components-Header-Header__trademark--1nWo0 {
+  width: 32px;
+  height: 32px;
+  margin: 0 4px 0 0;
+}
+.src-components-Header-Header__name--xbqgA {
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 24px;
+  margin: 0;
+  padding: 0;
 }
 .src-components-Hero-Hero__container--PPI1N {
   height: 50vh;
@@ -37,6 +54,18 @@
   line-height: 24px;
   border-radius: 4px;
 }
+.src-components-History-History__trademark--20uku {
+  width: 32px;
+  height: 32px;
+  margin: 0 8px 0 0;
+}
+.src-components-History-History__heading--1isNY {
+  margin: 0 -16px;
+  padding: 16px;
+  background: rgb(246, 249, 252);
+  color: rgb(50, 50, 93);
+  border-radius: 4px;
+}
 .src-components-History-History__p--3qYrQ {
   margin: 0;
   padding: 32px 16px;
@@ -46,8 +75,6 @@
   margin: 0;
   padding: 16px 16px;
   border-left: 1px solid #bbb;
-}
-.src-components-History-History__heading--1isNY {
 }
 .src-components-History-History__title--1fbEO {
   font-weight: 700;
