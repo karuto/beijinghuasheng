@@ -33,7 +33,7 @@ function Contact () {
 					</tr>
 					<tr>
 						<td>网址</td>
-						<td><a className={styles.link} href="www.beijinghuasheng.com">www.beijinghuasheng.com</a></td>
+						<td><a className={styles.link} href="//www.beijinghuasheng.com">www.beijinghuasheng.com</a></td>
 					</tr>
 				</tbody>
 				</table>

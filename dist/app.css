@@ -242,8 +242,11 @@ tr:nth-child(odd) {
   transition: all 1s ease;
 }
 .src-components-Intro-Intro__link--primary--3S_Xy,
+.src-components-Intro-Intro__link--primary--3S_Xy:hover,
+.src-components-Intro-Intro__link--primary--3S_Xy:active,
 .src-components-Intro-Intro__link--primary--3S_Xy:visited {
   color: rgb(50, 50, 93);
+  cursor: pointer;
 }
 .src-components-Intro-Intro__action--primary--2jZt3 {
   background: rgb(246, 249, 252);
@@ -253,15 +256,18 @@ tr:nth-child(odd) {
   background: rgb(217, 229, 242); /* 10% darker */
 }
 .src-components-Intro-Intro__link--secondary--qvHiT,
+.src-components-Intro-Intro__link--secondary--qvHiT:hover,
+.src-components-Intro-Intro__link--secondary--qvHiT:active,
 .src-components-Intro-Intro__link--secondary--qvHiT:visited {
   color: rgb(135, 187, 253);
+  cursor: pointer;
 }
 .src-components-Intro-Intro__action--secondary--1bafj {
   background: rgba(76, 80, 170, 0.2);
   color: rgb(135, 187, 253);
 }
 .src-components-Intro-Intro__action--secondary--1bafj:hover {
-  background: rgba(81, 86, 182, 0.2); /* 10% darker */
+  background: rgba(66, 70, 148, 0.2); /* 10% darker */
 }
 .src-components-Intro-Intro__actionText--1uYRP {
   text-align: center;
