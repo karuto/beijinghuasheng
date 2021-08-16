@@ -50,7 +50,7 @@ function History () {
 				<div className={styles.collabs}>
 					<article className={styles.collab}>
 						<img src={`dist/${cert1}`} className={styles.certificate} />
-						<h5>北京市高新技术企业 证书</h5>
+						<h5>国家高新技术企业 证书</h5>
 					</article>
 					<article className={styles.collab}>
 						<img src={`dist/${cert2}`} className={styles.certificate} />
