@@ -36,10 +36,6 @@ function History () {
 					</article>
 					<article className={styles.collab}>
 						<img src={`dist/${logoYanchang}`} className={styles.logo} />
-						<h5>延长油田丰源石油</h5>
-					</article>
-					<article className={styles.collab}>
-						<img src={`dist/${logoYanchang}`} className={styles.logo} />
 						<h5>陕西延长石油</h5>
 					</article>
 				</div>

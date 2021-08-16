@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './Hero.css';
-import hero from '../../assets/oil-refinery.jpg';
+import hero from '../../assets/oil-field.png';
 
 function Hero () {
     return (
