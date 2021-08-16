@@ -8,14 +8,17 @@ import logoYanchang from '../../assets/logo-yanchang.png';
 import credZhiliang from '../../assets/cred-zhiliang.png';
 import credZhijian from '../../assets/cred-zhijian.png';
 import credChengxin from '../../assets/cred-chengxin.png';
+import { Element } from 'react-scroll';
 
 function History () {
 	return (
 		<section className={styles.container}>
-			<h3 className={styles.heading}>
-				<img className={styles.trademark} src={`dist/${trademark}`} />
-				北京东方华盛科技有限公司
-			</h3>
+			<Element name="history">
+				<h3 className={styles.heading}>
+					<img className={styles.trademark} src={`dist/${trademark}`} />
+					北京东方华盛科技有限公司
+				</h3>
+			</Element>
 			<p className={styles.pspacer}></p>
 			<h3 className={styles.title}>业务概览</h3>
 			<p className={styles.p}>北京东方华盛科技有限公司经营范围主要包括油田助剂、水处理剂的生产与销售，化工产品、防蜡防垢防腐装置、机械设备、金属材料、润滑油、矿产品的销售、环境保护设施运营、油田采注工艺技术开发、防垢防腐技术及环保技术研发、技术推广服务等。主要服务对象是中国石油长庆油田、延长石油等油气田企业及大型炼油化工企业。</p>

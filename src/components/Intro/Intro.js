@@ -1,5 +1,8 @@
 import React from 'react';
 import styles from './Intro.css';
+import * as Scroll from 'react-scroll';
+import { Link } from 'react-scroll';
+
 
 function Intro () {
 	return (
@@ -13,7 +16,9 @@ function Intro () {
 				拥有全资分支机构：北京东方华盛科技有限公司西安分公司、仙桃华胜化工有限公司。公司资金充裕，生产经营稳定，社会信誉良好。
 			</p>
 			<div className={styles['action--primary']}>
-				<h4 className={styles.actionText}>详细介绍 ➡</h4>
+				<Link activeClass="active" to="history" spy={true} smooth={true} offset={-50} duration={500} className={styles['link--primary']}>
+					<h4 className={styles.actionText}>详细介绍 ➡</h4>
+				</Link>
 			</div>
 		</section>
 		<section className={styles['container--secondary']}>
@@ -40,7 +45,9 @@ function Intro () {
 				</section>
 			</div>
 			<div className={styles['action--secondary']}>
-				<h4 className={styles.actionText}>联系我们 ➡</h4>
+				<Link activeClass="active" to="contact" spy={true} smooth={true} offset={-50} duration={500} className={styles['link--secondary']}>
+					<h4 className={styles.actionText}>联系我们 ➡</h4>
+				</Link>
 			</div>
 		</section>
 		</div>

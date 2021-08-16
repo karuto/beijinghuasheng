@@ -241,12 +241,20 @@ tr:nth-child(odd) {
   padding: 32px;
   transition: all 1s ease;
 }
+.src-components-Intro-Intro__link--primary--3S_Xy,
+.src-components-Intro-Intro__link--primary--3S_Xy:visited {
+  color: rgb(50, 50, 93);
+}
 .src-components-Intro-Intro__action--primary--2jZt3 {
   background: rgb(246, 249, 252);
   color: rgb(50, 50, 93);
 }
 .src-components-Intro-Intro__action--primary--2jZt3:hover {
   background: rgb(217, 229, 242); /* 10% darker */
+}
+.src-components-Intro-Intro__link--secondary--qvHiT,
+.src-components-Intro-Intro__link--secondary--qvHiT:visited {
+  color: rgb(135, 187, 253);
 }
 .src-components-Intro-Intro__action--secondary--1bafj {
   background: rgba(76, 80, 170, 0.2);
@@ -274,13 +282,28 @@ tr:nth-child(odd) {
 .src-components-Intro-Intro__list--1W_aP {
   color: rgb(170, 183, 196);
 }
-.src-components-Footer-Footer__footer--2dyxG {
-  color: #666;
-  font-family: Roboto,"Hiragino Sans GB","冬青黑","Microsoft YaHei","微软雅黑",SimSun,"宋体",sans-serif;
-  max-width: 960px;
-  margin: 4rem auto;
-  text-align: center;
-  box-sizing: border-box;
+
+.src-components-Footer-Footer__container--3dfAC {
+  height: 50vh;
+  width: 100%;
+  margin: -72px 0 0;
+  background-size: cover;
+  background-position: bottom;
+}
+.src-components-Footer-Footer__overlay--1v1pK {
+  height: 50vh;
+  width: 100%;
+  background: rgba(0, 0, 0, .7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.src-components-Footer-Footer__copyright--2bBFy {
+  color: white;
+  padding: 0 32px;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 21px;
 }
 
 
@@ -947,11 +970,13 @@ textarea {
 html {
     line-height: 1;
     background: #eee;
-    font-family: "Noto Serif","Hiragino Sans GB","冬青黑","Microsoft YaHei","微软雅黑",SimSun,"宋体",serif;
+    /* font-family: "Noto Serif","Hiragino Sans GB","冬青黑","Microsoft YaHei","微软雅黑",SimSun,"宋体",serif; */
+    font-family: Helvetica Neue,Helvetica,-apple-system,BlinkMacSystemFont,Roboto,Arial,sans-serif;
 }
 h1, h2, h3, h4, h5, h6 {
     line-height: 1;
-    font-family: Roboto,"Hiragino Sans GB","冬青黑","Microsoft YaHei","微软雅黑",SimSun,"宋体",sans-serif;
+    /* font-family: Roboto,"Hiragino Sans GB","冬青黑","Microsoft YaHei","微软雅黑",SimSun,"宋体",sans-serif; */
+    font-family: Helvetica Neue,Helvetica,-apple-system,BlinkMacSystemFont,Roboto,Arial,sans-serif;
 }
 a,
 a:visited,

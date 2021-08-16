@@ -67,6 +67,10 @@
   padding: 32px;
   transition: all 1s ease;
 }
+.link--primary,
+.link--primary:visited {
+  color: rgb(50, 50, 93);
+}
 .action--primary {
   composes: action;
   background: rgb(246, 249, 252);
@@ -74,6 +78,10 @@
 }
 .action--primary:hover {
   background: rgb(217, 229, 242); /* 10% darker */
+}
+.link--secondary,
+.link--secondary:visited {
+  color: rgb(135, 187, 253);
 }
 .action--secondary {
   composes: action;

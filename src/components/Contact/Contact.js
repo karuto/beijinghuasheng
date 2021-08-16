@@ -1,9 +1,11 @@
 import React from 'react';
 import styles from './Contact.css';
 import Callout from '../Callout/Callout';
+import { Element } from 'react-scroll';
 
 function Contact () {
 	return (
+		<Element name="contact">
 		<section className={styles.container}>
 			<Callout heading='联系方式' enableShadow enableTheme>
 				<div className={styles.content}>
@@ -36,9 +38,9 @@ function Contact () {
 				</tbody>
 				</table>
 				</div>
-
 			</Callout>
 		</section>
+		</Element>
   	);
 }
 
