@@ -7,19 +7,19 @@ function Callout ({ heading, enableTheme, enableShadow, enableStretch, children 
 		containerStyles += ` `;
 		containerStyles += `${styles.shadow}`;
 	}
-	if (enableTheme) {
-		containerStyles += ` `;
-		containerStyles += `${styles.theme}`;
-	}
 	if (enableStretch) {
 		containerStyles += ` `;
 		containerStyles += `${styles.stretch}`;
 	}
+	if (enableTheme) {
+		containerStyles += ` `;
+		containerStyles += `${styles.theme}`;
+	}
 
   	return (
 		<section className={containerStyles}>
-			<div className={styles.calloutHeading}>
-				<h5 className={styles.calloutHeadingText}>{heading}</h5>
+			<div className={enableTheme ? styles.calloutHeadingThemed : styles.calloutHeading}>
+				<h2 className={styles.calloutHeadingText}>{heading}</h2>
 			</div>
 			{children}
 		</section>
